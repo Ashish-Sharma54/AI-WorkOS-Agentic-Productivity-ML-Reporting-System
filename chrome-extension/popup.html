@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI WorkOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h3>AI WorkOS</h3>
+
+  <!-- Platform detection -->
+  <p id="page">Detecting page...</p>
+
+  <!-- Live timer -->
+  <p id="timer">Time: 0 sec</p>
+
+  <!-- Session name -->
+  <input
+    id="session"
+    type="text"
+    placeholder="Session name (e.g. Cat vs Dog ML)"
+  />
+
+  <!-- Notes input -->
+  <textarea
+    id="note"
+    placeholder="What did you just do?"
+  ></textarea>
+
+  <!-- Actions -->
+  <button id="addNote">Add Note</button>
+  <button id="generate">Generate Report</button>
+
+  <!-- Output -->
+  <pre id="output"></pre>
+
+  <script src="popup.js"></script>
+</body>
+</html>
